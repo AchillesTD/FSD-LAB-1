@@ -1,0 +1,119 @@
+html,
+body {
+    background-color: #504099 !important;
+}
+
+#main-heading {
+    color: aliceblue;
+    text-align: center;
+    border: gray solid;
+}
+
+.navbar h3 {
+    display: inline;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+}
+
+.navbar a+a {
+    margin-left: 210px;
+}
+
+.navbar a:hover {
+    color: #ff9900;
+}
+
+#NR {
+    margin-top: 1%;
+    margin-bottom: 0%;
+    display: inline-block;
+    font-size: large;
+    font-weight: 200;
+    background-color: wheat;
+    border: #ff9900 solid;
+}
+
+#NRR {
+    margin-top: 1%;
+    margin-bottom: 0%;
+    display: inline-block;
+    font-size: large;
+    font-weight: 200;
+    background-color: wheat;
+    border: #ff9900 solid;
+}
+
+.NewReleases {
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+    border: #ff9900 solid;
+    padding: 10px;
+}
+
+.NewReleases img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.NewReleasesContainer {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.NewReleases {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.NewReleases a {
+    text-decoration: none;
+    color: #504099;
+}
+
+li {
+    background-color: wheat;
+    display: inline-block;
+    padding: 3px;
+}
+
+.movie-trends {
+    margin-top: 30px;
+}
+
+.movie-trends table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ff9900;
+    margin-top: 10px;
+}
+
+.movie-trends th,
+.movie-trends td {
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+}
+
+.movie-trends th {
+    background-color: #f2f2f2;
+}
+
+ol,
+ul {
+    padding-left:0.2rem;
+}

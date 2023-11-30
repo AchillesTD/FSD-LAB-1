@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Contact Us - Movie Bookmarks</title>
+    <style>
+        html {
+            background-color: #504099;
+        }
+
+        #main-heading {
+            color: aliceblue;
+            text-align: center;
+            border: gray solid;
+        }
+
+        .navbar h3 {
+            display: inline;
+            margin: 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: goldenrod;
+        }
+
+        .navbar a + a {
+            margin-left: 210px;
+        }
+
+        .navbar a:hover {
+            color: #ff9900;
+        }
+
+        .contact-content {
+            text-align: center;
+            padding: 20px;
+            background-color: antiquewhite;
+        }
+
+        .contact-content h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        .contact-form button {
+            background-color: goldenrod;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #ff9900;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="main-heading" draggable="true">Contact Us</h1>
+    
+    <div class="navbar">
+        <a href="index.html"><h3>Home</h3></a>
+        <a href="contact.html"><h3>Contact Us</h3></a>
+        <a href="about.html"><h3>About</h3></a>
+    </div>
+
+    <div class="contact-content">
+        <h2>Get in Touch</h2>
+        <p>Have questions or feedback? We'd love to hear from you. Fill out the form below to contact us.</p>
+        
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
